@@ -33,7 +33,7 @@
             border-radius: 10px;
         }
 
-        .skill, .project, .social {
+        .skill, .social {
             border: 1px solid #3498db;
             padding: 20px;
             border-radius: 10px;
@@ -45,24 +45,23 @@
 
         .projects {
             display: flex;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
-            gap: 10px;
+            grid-template-columns: repeat(fit, minmax(100px, 2fr));
+            justify-content: space-between;
+           
         }
-
+          
         .project img, .skill img {
-            width: 50%;
-            height: auto;
+            width: 70%;
+            height: 100%;
             border-radius: 10px;
             margin-bottom: 10px;
         }
-
+        
         .section.skills {
             background-image: linear-gradient(to right, #ff9966, #ff5e62);
             background-size: auto;
             background-position: center;
         }
-
-        /* Adjusted image size for the skills section */
         .skill img {
             width: 20%;
         }
@@ -87,43 +86,41 @@
         <div class="skills">
             <div class="skill">
                 <h3>HTML</h3>
-                <img src="https://www.logolynx.com/images/logolynx/f5/f5c1947c388ec543368c491ad77ea528.jpeg" alt="HTML Logo">
+                <img  src="https://www.logolynx.com/images/logolynx/f5/f5c1947c388ec543368c491ad77ea528.jpeg" alt="HTML Logo">
                 <p>Proficient</p>
             </div>
             <div class="skill">
                 <h3>CSS</h3>
-                <img src="https://i.pinimg.com/736x/d5/b9/3b/d5b93bad3c10cc5b92b47e4678598548--hd-wallpaper.jpg" alt="CSS Logo">
+                <img  src="https://i.pinimg.com/736x/d5/b9/3b/d5b93bad3c10cc5b92b47e4678598548--hd-wallpaper.jpg" alt="CSS Logo" height="200">
                 <p>Proficient</p>
             </div>
             <div class="skill">
                 <h3>JavaScript</h3>
-                <img src="https://assets-global.website-files.com/5e9aa66fd3886aa2b4ec01ca/63ccac7ed802dfb20c81706f_javascript_logo.png" alt="JavaScript Logo">
+                <img  src="https://assets-global.website-files.com/5e9aa66fd3886aa2b4ec01ca/63ccac7ed802dfb20c81706f_javascript_logo.png" alt="JavaScript Logo">
                 <p>Intermediate</p>
             </div>
         </div>
     </div>
-
     <div class="section projects">
         <h2>Projects</h2>
         <div class="projects">
             <div class="project">
                 <h3>Project 1</h3>
-                <img src="https://www.contentwriting101.com/wp-content/uploads/2020/09/Build-Your-Portfolio.png" height="50px" alt="Project 1 Image">
+                <img id="a2"src="https://www.contentwriting101.com/wp-content/uploads/2020/09/Build-Your-Portfolio.png" height="50px" alt="Project 1 Image">
                 <p>Portfolio website</p>
             </div>
             <div class="project">
                 <h3>Project 2</h3>
-                <img src="https://webdamn.com/wp-content/uploads/2019/11/build-weather-website-with-php-min.png" height="50px" alt="Project 2 Image">
+                <img id="a1" src="https://webdamn.com/wp-content/uploads/2019/11/build-weather-website-with-php-min.png" height="50px" alt="Project 2 Image">
                 <p>Weather website</p>
             </div>
             <div class="project">
                 <h3>Project 3</h3>
-                <img src="https://assets.materialup.com/uploads/8510c07b-b40a-4f74-9b73-c0450cbfa5cc/preview.png" alt="Project 3 Image">
+                <img  src="https://assets.materialup.com/uploads/8510c07b-b40a-4f74-9b73-c0450cbfa5cc/preview.png" alt="Project 3 Image">
                 <p>Homepage of Netflix</p>
             </div>
         </div>
     </div>
-
     <div class="section contact">
         <h2>Contact</h2>
         <div class="contact">
